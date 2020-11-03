@@ -18,20 +18,20 @@ public class GatewayServiceImpl implements GatewayService {
 
     @Override
     public Gateway findGatewayByName(String name){
-        Query query = Query.query(Criteria.where("name").is(name));
-        Gateway gateway = mongoTemplate.findOne(query,Gateway.class,"Gateway");
+        Query query = Query.query(Criteria.where("_id").is(name));
+        Gateway gateway = mongoTemplate.findOne(query, Gateway.class,"gateway");
         return gateway;
     }
 
     @Override
     public Gateway findGatewayByIp(String ip){
         Query query = Query.query(Criteria.where("ip").is(ip));
-        Gateway gateway = mongoTemplate.findOne(query,Gateway.class,"Gateway");
+        Gateway gateway = mongoTemplate.findOne(query, Gateway.class,"gateway");
         return gateway;
     }
 
     @Override
     public List<Gateway> findAllGateway(){
-        return mongoTemplate.findAll(Gateway.class,"Gateway");
+        return mongoTemplate.findAll(Gateway.class,"gateway");
     }
 }
