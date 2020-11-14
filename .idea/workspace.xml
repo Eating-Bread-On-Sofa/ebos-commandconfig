@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ace6eca-9b60-4411-ae40-2bbb210afddc" name="默认更改列表" comment="" />
+    <list default="true" id="4ace6eca-9b60-4411-ae40-2bbb210afddc" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bjtu/eboscommandconfig/controller/CommandConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/bjtu/eboscommandconfig/controller/CommandConfigController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +36,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1i06NQNVilcbkwiFBTGTnGxx4o0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -56,16 +61,16 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="cn.edu.bjtu.eboscommandconfig.service.impl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.edu.bjtu.eboscommandconfig.service.impl" />
       <recent name="cn.edu.bjtu.eboscommandconfig.util" />
       <recent name="cn.edu.bjtu.eboscommandconfig.entity" />
-      <recent name="cn.edu.bjtu.eboscommandconfig.service.impl" />
       <recent name="cn.edu.bjtu.eboscommandconfig.service" />
       <recent name="cn.edu.bjtu.eboscommandconfig.config" />
     </key>
@@ -116,37 +121,65 @@
       <workItem from="1603538491499" duration="1990000" />
       <workItem from="1603542499097" duration="1050000" />
       <workItem from="1603544830152" duration="454000" />
+      <workItem from="1604411094942" duration="73000" />
+      <workItem from="1604486782828" duration="397000" />
+      <workItem from="1604490521833" duration="7000" />
+      <workItem from="1604568220504" duration="1174000" />
+      <workItem from="1605338166978" duration="2486000" />
     </task>
+    <task id="LOCAL-00001" summary="error fix">
+      <created>1604411151149</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604411151149</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/ebos-commandconfig" />
+    </ignored-roots>
+    <MESSAGE value="error fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="error fix" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="355" y="68" key="#EbosCommandConfigApplication" timestamp="1605341249581">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="355" y="68" key="#EbosCommandConfigApplication/0.0.1440.860@0.0.1440.860" timestamp="1605341249581" />
     <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1601693763422">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1601693763422" />
+    <state x="297" y="27" key="CommitChangelistDialog2" timestamp="1604411149831">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="297" y="27" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1604411149831" />
     <state x="500" y="187" key="FileChooserDialogImpl" timestamp="1601464980347">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="187" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1601464980347" />
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1601983202989">
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1605341334190">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1601983202989" />
-    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1601983202989">
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1605341334190" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1605341334190">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1601983202989" />
-    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1601983202989">
+    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1605341334190" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1605341334189">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1601983202989" />
-    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1601983202989">
+    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1605341334189" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1605341334190">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1601983202989" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1605341334190" />
     <state width="1397" height="222" key="GridCell.Tab.1.bottom" timestamp="1601983202989">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -163,9 +196,13 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1397" height="222" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1601983202989" />
-    <state x="223" y="74" key="SettingsEditor" timestamp="1601464982151">
+    <state x="223" y="74" key="SettingsEditor" timestamp="1604487163013">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="223" y="74" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1601464982151" />
+    <state x="223" y="74" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1604487163013" />
+    <state x="312" y="153" key="Vcs.Push.Dialog.v2" timestamp="1605342400170">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="153" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1605342400170" />
   </component>
 </project>

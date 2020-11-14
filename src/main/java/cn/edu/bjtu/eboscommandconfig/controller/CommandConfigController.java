@@ -8,11 +8,15 @@ import cn.edu.bjtu.eboscommandconfig.service.LogService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 @Api(tags = "指令管理")
 @RequestMapping("/api/commandconfig")
@@ -80,11 +84,11 @@ public class CommandConfigController {
     @DeleteMapping("/{name}")
     public boolean delete(@RequestParam String commandname,@PathVariable String name){
         Gateway gateway = gatewayService.findGatewayByName(name);
-        String url = "http://"+ gateway.getIp() +":8082/api/command";
+        String url = "http://"+ gateway.getIp() +":8082/api/command?name="+commandname;
         boolean response = false;
         try {
-            restTemplate.delete(url,commandname,boolean.class);
-            response = true;
+            ResponseEntity<Boolean> result = restTemplate.exchange(url, HttpMethod.DELETE,null,boolean.class);
+            response = result.getBody();
         }catch (Exception e) {
             logService.error("retrieve", "无法连接至网关" + gateway.getName() + ":" + gateway.getIp() + " 异常:" + e.toString());
             response = false;
