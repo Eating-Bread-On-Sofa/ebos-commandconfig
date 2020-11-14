@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ace6eca-9b60-4411-ae40-2bbb210afddc" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/bjtu/eboscommandconfig/controller/CommandConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/bjtu/eboscommandconfig/controller/CommandConfigController.java" afterDir="false" />
-    </list>
+    <list default="true" id="4ace6eca-9b60-4411-ae40-2bbb210afddc" name="默认更改列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +40,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -81,8 +78,10 @@
   </component>
   <component name="RunManager">
     <configuration name="EbosCommandConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ebos-commandconfig" />
+      <module name="ebos-commandconfig1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.edu.bjtu.eboscommandconfig.EbosCommandConfigApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,7 +125,7 @@
       <workItem from="1604486782828" duration="397000" />
       <workItem from="1604490521833" duration="7000" />
       <workItem from="1604568220504" duration="1174000" />
-      <workItem from="1605338166978" duration="2486000" />
+      <workItem from="1605338166978" duration="2689000" />
     </task>
     <task id="LOCAL-00001" summary="error fix">
       <created>1604411151149</created>
@@ -135,7 +134,28 @@
       <option name="project" value="LOCAL" />
       <updated>1604411151149</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="delete api update">
+      <created>1605342445120</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605342445120</updated>
+    </task>
+    <task id="LOCAL-00003" summary="delete api update">
+      <created>1605342511143</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605342511143</updated>
+    </task>
+    <task id="LOCAL-00004" summary="delete api update">
+      <created>1605342578466</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605342578466</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,41 +166,46 @@
       <path value="$PROJECT_DIR$/ebos-commandconfig" />
     </ignored-roots>
     <MESSAGE value="error fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="error fix" />
+    <MESSAGE value="delete api update" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete api update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="355" y="68" key="#EbosCommandConfigApplication" timestamp="1605341249581">
+    <state x="355" y="68" width="744" height="723" key="#EbosCommandConfigApplication" timestamp="1605342669005">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="355" y="68" key="#EbosCommandConfigApplication/0.0.1440.860@0.0.1440.860" timestamp="1605341249581" />
+    <state x="355" y="68" width="744" height="723" key="#EbosCommandConfigApplication/0.0.1440.860@0.0.1440.860" timestamp="1605342669005" />
     <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1601693763422">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="525" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1601693763422" />
-    <state x="297" y="27" key="CommitChangelistDialog2" timestamp="1605342510233">
+    <state x="297" y="27" key="CommitChangelistDialog2" timestamp="1605342577563">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="297" y="27" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1605342510233" />
+    <state x="297" y="27" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1605342577563" />
+    <state x="461" y="193" key="EnvironmentVariablesDialog" timestamp="1605342654367">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="461" y="193" key="EnvironmentVariablesDialog/0.0.1440.860@0.0.1440.860" timestamp="1605342654367" />
     <state x="500" y="187" key="FileChooserDialogImpl" timestamp="1601464980347">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="187" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1601464980347" />
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1605342465221">
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1605342607836">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1605342465221" />
-    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1605342465221">
+    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1605342607836" />
+    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1605342607836">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1605342465221" />
-    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1605342465221">
+    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1605342607836" />
+    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1605342607836">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1605342465221" />
-    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1605342465221">
+    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1605342607836" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1605342607836">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1605342465221" />
+    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1605342607836" />
     <state width="1397" height="222" key="GridCell.Tab.1.bottom" timestamp="1601983202989">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -201,10 +226,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="223" y="74" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1604487163013" />
-    <state x="312" y="153" key="Vcs.Push.Dialog.v2" timestamp="1605342523595">
+    <state x="312" y="153" key="Vcs.Push.Dialog.v2" timestamp="1605342591071">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="153" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1605342523595" />
+    <state x="312" y="153" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1605342591071" />
     <state x="514" y="347" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605342549679">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
