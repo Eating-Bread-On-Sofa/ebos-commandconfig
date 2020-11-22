@@ -112,12 +112,10 @@ public class CommandConfigController {
         return commands;
     }
 
-
     @ApiOperation(value = "微服务运行检测", notes = "微服务正常运行时返回 pong")
     @CrossOrigin
     @GetMapping("/ping")
     public String ping(){
-        logService.info("retrieve","对指令管理进行了一次健康检测");
         return "pong";
     }
 }
