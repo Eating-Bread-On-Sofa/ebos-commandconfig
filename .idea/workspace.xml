@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ace6eca-9b60-4411-ae40-2bbb210afddc" name="默认更改列表" comment="commit system log">
+    <list default="true" id="4ace6eca-9b60-4411-ae40-2bbb210afddc" name="默认更改列表" comment="update cors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,6 +216,7 @@
       <workItem from="1607664398883" duration="4000" />
       <workItem from="1617089825012" duration="32000" />
       <workItem from="1617094935665" duration="120000" />
+      <workItem from="1617345685296" duration="467000" />
     </task>
     <task id="LOCAL-00001" summary="error fix">
       <created>1604411151149</created>
@@ -266,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606026116603</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update cors">
+      <created>1617345830844</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617345830844</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,9 +288,14 @@
     <MESSAGE value="error fix" />
     <MESSAGE value="delete api update" />
     <MESSAGE value="commit system log" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit system log" />
+    <MESSAGE value="update cors" />
+    <option name="LAST_COMMIT_MESSAGE" value="update cors" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="365" y="10" key="CommitChangelistDialog2" timestamp="1617345829607">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="365" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1617345829607" />
     <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1617095052444">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -319,5 +332,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1464" height="192" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1617345799952" />
+    <state x="361" y="136" key="Vcs.Push.Dialog.v2" timestamp="1617345832949">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1617345832949" />
   </component>
 </project>
